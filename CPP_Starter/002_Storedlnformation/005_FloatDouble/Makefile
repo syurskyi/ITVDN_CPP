@@ -1,3 +1,3 @@
 CC = c++
-app: 002_Example.cpp
-	$(CC) 002_Example.cpp -o Debug/app
+app: 005_FloatDouble.cpp
+	$(CC) 005_FloatDouble.cpp -o Debug/FloatDouble
