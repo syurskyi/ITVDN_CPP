@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(SimpleVariable)
+project(005_Arithmetic)
 
 set(SOURCES
-        SimpleVariable.cpp)
+        005_Arithmetic.cpp)
 
-add_executable(SimpleVariable ${SOURCES})
+add_executable(005_Arithmetic ${SOURCES})
 
-set_target_properties(SimpleVariable PROPERTIES
+set_target_properties(005_Arithmetic PROPERTIES
         CXX_STANDARD 14
         CXX_STANDARD_REQUIRED ON)
