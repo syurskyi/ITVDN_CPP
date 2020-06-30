@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(SimpleVariable)
+project(013_Dynamic)
 
 set(SOURCES
-        SimpleVariable.cpp)
+        013_Dynamic.cpp)
 
-add_executable(SimpleVariable ${SOURCES})
+add_executable(013_Dynamic ${SOURCES})
 
-set_target_properties(SimpleVariable PROPERTIES
+set_target_properties(013_Dynamic PROPERTIES
         CXX_STANDARD 14
         CXX_STANDARD_REQUIRED ON)
