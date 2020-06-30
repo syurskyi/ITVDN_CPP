@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(SimpleVariable)
+project(010_CastingExpression)
 
 set(SOURCES
-        SimpleVariable.cpp)
+        010_CastingExpression.cpp)
 
-add_executable(SimpleVariable ${SOURCES})
+add_executable(010_CastingExpression ${SOURCES})
 
-set_target_properties(SimpleVariable PROPERTIES
+set_target_properties(010_CastingExpression PROPERTIES
         CXX_STANDARD 14
         CXX_STANDARD_REQUIRED ON)
