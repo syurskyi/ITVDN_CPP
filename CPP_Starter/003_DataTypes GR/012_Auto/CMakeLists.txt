@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(SimpleVariable)
+project(012_Auto)
 
 set(SOURCES
-        SimpleVariable.cpp)
+        012_Auto.cpp)
 
-add_executable(SimpleVariable ${SOURCES})
+add_executable(012_Auto ${SOURCES})
 
-set_target_properties(SimpleVariable PROPERTIES
+set_target_properties(012_Auto PROPERTIES
         CXX_STANDARD 14
         CXX_STANDARD_REQUIRED ON)
