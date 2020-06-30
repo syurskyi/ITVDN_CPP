@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(002_Example)
+project(SimpleVariable)
 
 set(SOURCES
-        002_Example.cpp)
+        SimpleVariable.cpp)
 
-add_executable(002_Example ${SOURCES})
+add_executable(SimpleVariable ${SOURCES})
 
-set_target_properties(002_Example PROPERTIES
+set_target_properties(SimpleVariable PROPERTIES
         CXX_STANDARD 14
         CXX_STANDARD_REQUIRED ON)
