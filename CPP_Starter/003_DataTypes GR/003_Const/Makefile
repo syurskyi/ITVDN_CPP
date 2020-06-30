@@ -1,3 +1,3 @@
 CC = c++
-app: SimpleVariable.cpp
-	$(CC) SimpleVariable.cpp -o Debug/SimpleVariable
+app: 003_Const.cpp
+	$(CC) 003_Const.cpp -o Debug/003_Const
