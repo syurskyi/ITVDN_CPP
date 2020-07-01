@@ -1,3 +1,3 @@
 CC = c++
-app: 001_Sizeof.cpp
-	$(CC) 001_Sizeof.cpp -o Debug/001_Sizeof
+app: 001_SumbolFunction.cpp
+	$(CC) 001_SumbolFunction.cpp -o Debug/001_SumbolFunction
