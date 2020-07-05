@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(001_Format_Out)
+project(005_For_in_For)
 
 set(SOURCES
-        001_Format_Out.cpp)
+        005_For_in_For.cpp)
 
-add_executable(001_Format_Out ${SOURCES})
+add_executable(005_For_in_For ${SOURCES})
 
-set_target_properties(001_Format_Out PROPERTIES
+set_target_properties(005_For_in_For PROPERTIES
         CXX_STANDARD 14
         CXX_STANDARD_REQUIRED ON)
