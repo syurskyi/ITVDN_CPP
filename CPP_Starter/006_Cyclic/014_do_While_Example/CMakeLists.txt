@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(001_Format_Out)
+project(014_do_While_Example)
 
 set(SOURCES
-        001_Format_Out.cpp)
+        014_do_While_Example.cpp)
 
-add_executable(001_Format_Out ${SOURCES})
+add_executable(014_do_While_Example ${SOURCES})
 
-set_target_properties(001_Format_Out PROPERTIES
+set_target_properties(014_do_While_Example PROPERTIES
         CXX_STANDARD 14
         CXX_STANDARD_REQUIRED ON)
