@@ -1,3 +1,3 @@
 CC = c++
-app: 001_Format_Out.cpp
-	$(CC) 001_Format_Out.cpp -o Debug/001_Format_Out
+app: 007Link.cpp
+	$(CC) 007Link.cpp -o Debug/007Link
