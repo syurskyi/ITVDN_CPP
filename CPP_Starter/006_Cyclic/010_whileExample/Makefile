@@ -1,3 +1,3 @@
 CC = c++
-app: 001_Format_Out.cpp
-	$(CC) 001_Format_Out.cpp -o Debug/001_Format_Out
+app: 010_whileExample.cpp
+	$(CC) 010_whileExample.cpp -o Debug/010_whileExample
