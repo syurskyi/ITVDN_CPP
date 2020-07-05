@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(001_Format_Out)
+project(006Recursion)
 
 set(SOURCES
-        001_Format_Out.cpp)
+        006Recursion.cpp)
 
-add_executable(001_Format_Out ${SOURCES})
+add_executable(006Recursion ${SOURCES})
 
-set_target_properties(001_Format_Out PROPERTIES
+set_target_properties(006Recursion PROPERTIES
         CXX_STANDARD 14
         CXX_STANDARD_REQUIRED ON)
