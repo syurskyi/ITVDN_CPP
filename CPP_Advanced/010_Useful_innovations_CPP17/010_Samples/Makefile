@@ -1,3 +1,3 @@
 CC = c++
-app: main.cpp
-	$(CC) main.cpp -o build/app
+app: main.cpp inlinevariables.cpp
+	$(CC) main.cpp inlinevariables.cpp -o build/app
